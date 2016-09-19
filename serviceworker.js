@@ -1,7 +1,7 @@
 this.addEventListener('install', event => {
   let wait = caches.open('v1').then(cache => {
     return cache.addAll([
-      '/'
+      '.'
     ]);
   });
 
