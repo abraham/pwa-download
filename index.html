@@ -1,0 +1,18 @@
+<html>
+<head>
+
+  <script>
+    navigator.serviceWorker.register('serviceworker.js');
+  </script>
+
+</head>
+<body>
+  <img src="https://hd.unsplash.com/photo-1470104240373-bc1812eddc9f" width="600" height="400" />
+
+  <a href="https://hd.unsplash.com/photo-1470104240373-bc1812eddc9f" download>Download</a>
+
+  <p>Adding the `download` attribute to an `a` tag makes the request bypass service worker fetch events.</p>
+
+  <p>Disable device networking (not just going offline in dev toosl) and click on download.</p>
+</body>
+</html>
